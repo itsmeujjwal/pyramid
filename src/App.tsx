@@ -483,19 +483,19 @@ const LeadersSection = () => {
   const leaders = [
     {
       name: "Manoj Keshari",
-      role: "Chairperson",
+      role: "Board Member",
       message: "At Himalayan Pyramid, we believe in nurturing not just students, but future architects of society. Our legacy of excellence is built on the foundation of character, innovation, and global perspective.",
       image: "/sir1.jpeg"
     },
     {
       name: "Vijay Yadav",
-      role: "Principal",
+      role: "Director",
       message: "Education is the key to unlocking the world, a passport to freedom. We are dedicated to providing a supportive environment where every child's unique potential is recognized and celebrated.",
       image: "/sir2.jpeg"
     },
     {
       name: "Sanjay Singh",
-      role: "Managing Director",
+      role: "Principal",
       message: "We integrate modern technology with traditional values. Our goal is to ensure that our graduates are not only academically proficient but also digitally fluent and ethically grounded.",
       image: "/sir3.jpeg"
     }
