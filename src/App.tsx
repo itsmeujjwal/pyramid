@@ -69,8 +69,8 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-[#7a1b1b] border-b border-[#631515] shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
-          <div className="flex-shrink-0 flex items-center gap-3">
-            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center p-1 overflow-hidden">
+          <div className="flex-shrink-0 flex items-center gap-2 sm:gap-3">
+            <div className="w-12 h-12 sm:w-20 sm:h-20 bg-white rounded-full flex items-center justify-center p-1 overflow-hidden">
                <img 
                  src={LOGO_URL} 
                  alt="Pyramid Logo" 
@@ -80,9 +80,9 @@ const Navbar = () => {
                  }}
                />
             </div>
-            <span className="hidden sm:flex flex-col leading-tight">
-              <span className="font-black text-xl tracking-tight text-[#e6c17a]">HIMALAYAN</span>
-              <span className="font-black text-xl tracking-tight text-[#e6c17a]">PYRAMID</span>
+            <span className="flex flex-col leading-tight text-xs sm:text-xl gap-0 sm:gap-0">
+              <span className="font-black tracking-tight text-[#e6c17a]">HIMALAYAN</span>
+              <span className="font-black tracking-tight text-[#e6c17a]">PYRAMID</span>
             </span>
           </div>
 
